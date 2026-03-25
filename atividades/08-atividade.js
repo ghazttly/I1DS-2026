@@ -19,22 +19,23 @@ var matriz = [
   [7, 1, 4],
 ];
 
-for (let linha = 0; linha < matriz.length; linha++){
+for (let linha = 0; linha < matriz.length; linha++) {
   for (let coluna = 0; coluna < matriz[0].length; coluna++)
-    ;
+    if ((linha = coluna))
+      console.log("matriz[", linha, ",", coluna, "] =", matriz[linha][coluna]);
 }
 
 console.log("-----------------------------");
 
-let x = 4
+let x = 5;
 var matriz = [
-    [8, 1, 3],
-    [2, 9, 1],
-    [4, 6, 2],
-  ];
+  [8, 1, 3],
+  [2, 9, 1],
+  [4, 6, 2],
+];
 
 console.table(matriz);
-for (let i = 0; i < matriz.length; i++) {
-  matriz[i] *= x;
-}
+for (let linha = 0; linha < matriz.length; linha++) 
+  for (let coluna = 0; coluna < matriz[0].length; coluna++)
+matriz[linha][coluna]*=x
 console.table(matriz);
