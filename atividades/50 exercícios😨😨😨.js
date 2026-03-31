@@ -313,10 +313,103 @@ console.log("-------------------------------------------------------------------
 console.log("-----------------------------parte 4---------------------------------")
 console.log("----------------------------------------------------------------------")
 
+for (let i = 1; i <= 100; i++) {
+  console.log(i);
+}
 
+console.log("----------------------------------------------------------------------")
+
+for (let i = 100; i >= 1; i--) {
+  console.log(i);
+}
+
+console.log("----------------------------------------------------------------------")
+
+for (let i = 2; i <= 50; i += 2) {
+  console.log(i);
+}
+
+console.log("----------------------------------------------------------------------")
+
+for (let i = 1; i <= 50; i += 2) {
+  console.log(i);
+}
+
+console.log("----------------------------------------------------------------------")
+
+let soma = 0;
+for (let i = 1; i <= 100; i++) {
+    soma += i;
+}
+console.log(soma);
+console.log("----------------------------------------------------------------------")
+
+function calcularFatorial(num) {
+  if (num === 0 || num === 1) return 1;
+
+  let resultado = 1;
+  for (let i = 2; i <= num; i++) {
+    resultado *= i;
+  }
+  
+  return resultado;
+}
+console.log(calcularFatorial(5));
+
+console.log("----------------------------------------------------------------------")
+
+// Defina o número da tabuada aqui
+var numero = 9; 
+
+console.log(`Tabuada do ${numero}:`);
+
+for (let i = 1; i <= 10; i++) {
+    console.log(`${numero} x ${i} = ${numero * i}`);
+}
+
+console.log("----------------------------------------------------------------------")
+
+var contador = 0;
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 === 0) {
+    contador++;
+  }
+}
+console.log("Quantidade de números pares entre 1 e 100:", contador);
+
+console.log("----------------------------------------------------------------------")
+
+for (let i = 0; i <= 100; i++) {
+  if (i % 5 === 0) {
+    console.log(i);
+  }
+}
+
+console.log("----------------------------------------------------------------------")
+
+const linhas = 10;
+var simbolo = '*';
+
+for (let i = 1; i <= linhas; i++) {
+    let linhaAtual = '';
+    
+    for (let j = 0; j < i; j++) {
+        linhaAtual += simbolo + ' ';
+    }
+    
+    console.log(linhaAtual);
+}
 
 console.log("----------------------------------------------------------------------")
 console.log("-----------------------------parte 5---------------------------------")
+console.log("----------------------------------------------------------------------")
+
+const numeros = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+
+for (let i = 0; i < numeros.length; i++) {
+  console.log(`Posição ${i}: ${numeros[i]}`);
+}
+
 console.log("----------------------------------------------------------------------")
 
 
