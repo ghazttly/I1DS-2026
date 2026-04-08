@@ -1,0 +1,7 @@
+
+.my-text{color:ivory}
+#header{background-color: crimson; height: 130px; text-align: center;}
+#main{background-color: lightpink; height: 380px;}
+#aside{background-color: cornflowerblue; height: 100%; width: 30%; float: left;}
+#content{background-color: palegreen; height: 100%; width: 70%; float: right;}
+#footer{background-color: lightslategray; height: 50px;}

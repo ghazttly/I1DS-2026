@@ -1,0 +1,16 @@
+/* comentarios em CSS*/
+/* 
+   seletores css
+   seletor de classe -> .
+   seletor de id -> #
+   seletor de elemento -> tag html
+*/
+
+body{
+    background-color: powderblue;   /* cor de fundo */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;  /*tamanho da fonte */
+    margin: 0px;  /*espacamento externo ao box */
+    padding: 0px;  /*espacamento interno ao box */
+    text-align: center;
+}
