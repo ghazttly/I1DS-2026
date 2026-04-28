@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: ghostwhite;
+
+}
+/* LAYOUT */
+.container{
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar{
+    width: 220px;
+    height: 100dvh;
+    background-color: darkslateblue;
+    color: thistle;
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebar h2{
+    margin-bottom: 20px;
+}
+
+.sidebar a{
+    display: block;
+    color: lavender;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: mediumslateblue;
+}
+
+/* CONTEUDO */
+.content {
+    margin-left: 220px;
+    padding: 20px;
+    width: 100%;
+}
+
+/* HEADER */
+.topbar {
+    background-color: thistle;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: rgb(236, 216, 236);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* INPUT*/
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid indigo;
+    border-radius: 6px;
+}
+
+/*BOTAO*/
+.submit {
+    background-color: ivory;
+    color: #230339;
+    padding: 10px;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    margin-top: 10px;
+}
+
+.submit:hover {
+    background-color: lemonchiffon;
+}
+
+/* LISTA */
+ul {
+    list-style: none;
+}
+
+.btn {
+    color: #230339;
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: none;
+    margin-top: 10px;
+    display: inline;
+}
+
+.delete:hover {
+    background-color: rgb(247, 75, 81);
+}
+
+li {
+    background-color: thistle;
+    padding: 10px;
+    margin-top: 8px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+li:hover {
+    background-color: rgb(191, 157, 191);
+    transform: translateX(5px);
+}
+
