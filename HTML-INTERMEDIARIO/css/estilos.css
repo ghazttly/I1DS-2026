@@ -12,3 +12,64 @@ body{
     background-color: seashell;
 
 }
+
+header{
+background-color: deepskyblue;
+color: ivory;
+padding: 24px;
+text-align: center;
+}
+
+nav{
+background-color: #07042e;
+display: flex;
+justify-content: center;
+gap: 32px;
+padding: 12px;
+position: sticky;
+top: 0;
+z-index: 1000;
+}
+nav a {
+color: ghostwhite;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover{
+color: lightsteelblue;
+font-style: italic;
+}
+
+/* LAYOUT PRINCIPAL // LEIAUTE */
+main{
+display: flex;
+gap: 24px;
+padding: 24px;
+}
+
+/* lATERAL*/
+aside {
+width: 25%;
+background-color: seashell;
+padding: 16px;
+border-radius: 8px;
+}
+
+/* CONTEUDO*/
+section {
+background-color: seashell;
+padding: 16px;
+border-radius: 8px;
+}
+
+/*RODAPE*/
+footer {
+background-color: #07042e;
+color: ghostwhite;
+text-align: center;
+padding: 12px;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
