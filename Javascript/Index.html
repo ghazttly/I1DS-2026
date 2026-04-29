@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript | HTML Dinamico</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Html Dinamico com Javascript</h1>
+
+    <div class="card">
+        <h2>Exercicio 01- </h2>
+        <h3>Contador Simples</h3>
+        <p>
+            <span>Objetivo:</span>
+            Criar um contador com botao +1 botao -1 e reset
+        </p>
+
+        <div class="exercicio">
+            <h3>Contador</h3>
+            <p id="contador">0</p>
+            <div class="grupo-botoes">
+                <button id="btn-mais" onclick="adicionar()">+</button>
+                <button id="btn-menos" onclick="diminuir()">-</button>
+                <button id="btn-zerar" onclick="zerar()">Zerar</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Exercicio 02- </h2>
+        <h3> Seletor de Cores </h3>
+
+        <div class="exercicio">
+            <h3>Seletor de Cores</h3>
+         <p>
+            <span>Objetivo: </span>
+            Selecionar uma cor no color picker e aplica-la a um quadrado
+         </p>
+
+        <label>Escolha uma cor:</label>
+        <input type="color" id="colorPicker" oninput="mudarCor()">
+            <div id="quadrado"></div>
+        </div>
+    </div>
+
+    <div class="card">
+        <h2>Exercicio 03 - </h2>
+        <h3>Calculadore Simples</h3>
+        <p>
+            <span>Objetivo:</span>
+            Criar uma calculadora que realize as operaçoes de soma, subtraçao, multiplicaçao e divisao
+        </p>
+        <div class="exercicio">
+        <h3>Calculadora Operaçoes Básicas</h3>
+        <input type="number" id="num1" placeholder="numero 1">
+        <input type="number" id="num2" placeholder="numero 2">
+        <div class="grupo-botoes">
+            <button id="btn-soma" onclick="somar()">+</button>
+            <button id="btn-sub" onclick="subtrair()">-</button>
+            <button id="btn-multi" onclick="multiplicar()">*</button>
+            <button id="btn-divi" onclick="dividir()">/</button>
+        </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

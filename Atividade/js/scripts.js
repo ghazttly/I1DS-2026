@@ -16,7 +16,7 @@ const cadastrar = (event) => {
 
     //CRIAR UM NOVO ELEMENTO <LI>NOME - EMAIL</LI>
     let novoItem = document.createElement("li");
-    novoItem.innerHTML = `${id} - ${nome} - ${email} <p onClick=editar(${id}) class='btn' >Editar</p> <p onClick=excluir(${id})
+    novoItem.innerHTML = `${id} - ${nome} - ${email} <p onClick=editar(${id}) class='btn' >Editar</p> <p onClick=excluir(${id}) class= 'btn'>Editar</p> - <p onClick=excluir(${id}) class='btn'>Excluir</p>`;
 
     //ADICIONAR O NOVO ITEM NA LISTA JA EXISTENTE
     lista.appendChild(novoItem);
@@ -25,22 +25,26 @@ const cadastrar = (event) => {
     document.getElementById("nome").value = "";
     document.getElementById("email").value = "";
 
+    //FUNÇAO EDITAR
     const editar = (id) => {
-        //buscar o conteudo do id na lista
-        //preencher os campos do formulário com os valores
+        const lista = document.getElementById("lista");
+        const item = document.querySelectorAll("li");
+    
+        itens.forEach= (item) => {
+            let nome = item.innerHTML.split(" - ")[3];
+            let email = item.innerHTML.split(" - ")[2];
     };
 
+    //FUNÇAO EXCLUIR
     const excluir = (id) => {
-        //buscar o conteudo do id na lista
-        //remover o item
         const lista = document.getElementById("lista");
-        const item = document.getElementsByTagName("li");
+        const item = document.querySelectorAll("li");
 
         itens.forEach((item) => {
-            if 9item.innerHTML.includes(id)) {
+            if (item.innerHTML.includes(id)) {
                 item.remove();
             }
         }
-    });
+    )};
 
-}
+}};
