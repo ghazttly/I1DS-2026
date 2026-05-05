@@ -1,0 +1,18 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: slategray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10pc;
+}
+
+#lampada{
+    height: 100px;
+    width: 100px;
+    background-color: aliceblue;
+    border-radius: 50px;
+}
