@@ -122,3 +122,23 @@ li:hover {
     transform: translateX(5px);
 }
 
+table{
+  width:100%;
+  border-collapse: collapse;
+  margin-top:20px;
+}
+
+th, td{
+  border:1px solid #ccc;
+  padding:10px;
+  text-align:center;
+}
+
+th{
+  background:slateblue;
+  color:white;
+}
+
+hr{
+  margin:20px 0;
+}
